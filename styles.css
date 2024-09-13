@@ -1,0 +1,216 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Styles for the student role */
+.role {
+    font-size: 1em; /* Ukuran font yang elegan */
+    color: #555; /* Warna teks yang lembut */
+    font-weight: 400; /* Berat font normal untuk kesan elegan */
+    margin-top: 10px; /* Jarak dari elemen sebelumnya */
+    padding: 10px 20px; /* Padding untuk kenyamanan */
+    border-radius: 20px; /* Sudut membulat yang halus */
+    background: linear-gradient(135deg, #f4f4f4, #e0e0e0); /* Gradien lembut */
+    display: inline-block; /* Inline block agar padding bekerja dengan baik */
+    text-transform: capitalize; /* Hanya huruf pertama yang kapital */
+    letter-spacing: 0.5px; /* Spasi antara huruf yang tipis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut untuk efek kedalaman */
+    border: 3px solid #ccc; /* Garis batas halus untuk definisi */
+    font-family: 'Georgia', serif; /* Font serif untuk tampilan elegan */
+}
+
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(135deg, #4a90e2, #003f6c);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 5px solid #003f6c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+p {
+    margin: 10px 0 0;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.contact-info {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #4a90e2;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 180px;
+    text-align: center;
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #003f6c;
+}
+
+footer {
+    background: linear-gradient(135deg, #4a90e2, #003f6c);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 5px solid #003f6c;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    .contact-info {
+        padding: 30px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    ul {
+        flex-direction: row;
+    }
+
+    li {
+        min-width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .contact-info {
+        padding: 25px;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        min-width: 220px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    .contact-info {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        min-width: 150px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
